@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chat Services</title>
+    <link rel="stylesheet" href="style/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/interface.css" />
+</head>
+<body>
+	<div class="container">
+		<h3 class="chatText">Popular Chat App</h3>
+	    <div class="userBox">
+	    	<h3>Active Members</h3>
+	    	<div id="users"></div>
+	    </div>
+	    <div class="chatBox-wrapper">
+			<div class="chat-box">
+				<div id="conversation" class="outputBox">
+
+				</div>
+			</div>
+			<div class="chat-app">
+				<ul class="chatapp-list">
+					<li>Enter Message:</li>
+					<li>
+						<textarea type="text" class="inputField" id="data"></textarea>
+					</li>
+					<li>
+						<ul class="medialist">
+							<li>
+								<div class="fileicon-box">
+									<input type="file" id="imagefile" class="sendFile" />
+								</div>
+							</li>
+							<li>
+								<div class="fileicon-box">
+									<input type="file" id="otherfile" class="sendFile" />
+								</div>
+							</li>
+						</ul>
+						<button type="button" class="btnSend" id="datasend"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+					</li>
+				</ul>
+			</div>
+	    </div>
+	</div>
+    
+	
+	<script src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="scripts/socket.io.js"></script>
+    <script src="scripts/clientSite.js"></script>
+    <script type="text/javascript">
+    	
+    </script>
+</body>
+</html>
