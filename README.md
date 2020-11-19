@@ -1,7 +1,7 @@
 # ChatApp
 Live chat application developed with node JS and socket.io. Through this application users can chat, share images and files.
 
-#TechStack: 
+# TechStack: 
 * Node Js, Socket.io, Html, CSS, jQuery, JavaScript.
 
 # follow this:
