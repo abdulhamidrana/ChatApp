@@ -6,7 +6,7 @@ Live chat application developed with node JS and socket.io. Through this applica
 
 # follow this:
 * 	To run node server
-	  node server
+	* node server
 
 *	Then open browser
-	localhost:8080
+	* localhost:8080
